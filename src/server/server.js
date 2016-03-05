@@ -8,6 +8,8 @@ const app = express();
 app.set('views', './src/views');
 app.set('view engine', 'jade');
 
+app.enable('trust proxy');
+
 app.use('/', router);
 
 app.listen(config.port, (err) => {

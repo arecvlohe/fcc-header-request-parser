@@ -1,8 +1,8 @@
 # FCC Request Header Service
 
 ## Instructions
- - Pass ```whoami``` to the following API: ```/whoami```;
+ - Pass ```whoami``` to the following API: https://fcc-headers-parser-service.herokuapp.com/;
 
 ## How it works
- - Example request - http://fcc-timestamp-service.herokuapp.com/whoami
+ - Example request - https://fcc-headers-parser-service.herokuapp.com/whoami
  - Example response - ```{"ipaddress":"::1","language":"en-US","software":"Macintosh; Intel Mac OS X 10.11; rv:44.0"}```
