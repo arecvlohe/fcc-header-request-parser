@@ -1,4 +1,4 @@
-# FCC Request Header Service
+# FCC Request Header Parser Microservice
 
 ## Instructions
  - Pass ```whoami``` to the following API: https://fcc-headers-parser-service.herokuapp.com/;
