@@ -4,7 +4,7 @@ export function userInfo(a, b) {
 
   const language = a['accept-language'].match(/^.*(?=,)/)[0];
   const software = a['user-agent'].match(/\(.*\)/)[0].replace(/[\(\)]/g, '');
-  const ipaddress = b;
+  const ipaddress = b.match(/[^::ffff:].*/)[0];
 
   return { ipaddress: ipaddress, language: language, software: software };
 

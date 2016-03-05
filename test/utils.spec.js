@@ -7,10 +7,10 @@ describe('#userInfo', () => {
       'user-agent': '(Macintosh; Intel Mac OS X 10.11; rv:44.0)',
       'accept-language': 'en-gb, en;q=0.7',
     };
-    const ip = '198.51.100.17';
+    const ip = '::ffff:10.140.192.224';
     const actual = userInfo(header, ip);
     const expected = {
-      ipaddress:'198.51.100.17',
+      ipaddress:'10.140.192.224',
       language:'en-gb',
       software:'Macintosh; Intel Mac OS X 10.11; rv:44.0', };
     expect(actual).toEqual(expected);
